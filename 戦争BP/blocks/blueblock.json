@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.51",
+    "minecraft:block": {
+        "description": {
+            "identifier": "war:blueblock",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:destructible_by_mining" : {
+                "seconds_to_destroy": 5
+            },
+            "minecraft:destructible_by_explosion" : {
+                "explosion_resistance": 100
+            },
+            "minecraft:display_name": "title.war:blueblock.name",
+            "minecraft:geometry" : {
+                "identifier": "minecraft:geometry.full_block"
+            }
+        }
+    }
+}

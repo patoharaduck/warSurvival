@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "戦争や!BP",
+		"description": "",
+		"uuid": "4816dd09-2252-46a5-923a-3b681bb37212",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 21, 0 ]
+	},
+	"modules": [
+        {
+            "description": "JSの欄",
+            "language": "javascript",
+            "type": "script",
+            "uuid": "0c85b7c1-4b50-4b12-9676-d3998fb90c35",
+            "version": [2, 4, 10],
+            "entry": "scripts/main.js"  
+        },
+		{
+			"type": "data",
+			"description": "",
+			"uuid": "f61655a5-1172-4483-8f99-e1ba9c98333c",
+			"version": [ 1, 0, 0 ]
+		}
+	],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "beta"
+          },
+          {
+            "module_name": "@minecraft/server-ui",
+            "version": "beta"
+          },
+          {
+            "uuid": "6c9578e4-6651-4118-a231-37d3995c66cc",
+            "version": [1, 0, 0]
+        }
+    ]
+}
